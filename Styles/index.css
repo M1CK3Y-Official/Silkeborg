@@ -1,0 +1,10 @@
+.hero {
+    background: url('../Assets/Porsche/Panamera_background.jpg');
+    height: 100vh;
+}
+
+.hero-img {
+    display: block;
+    z-index: 10;
+}
+

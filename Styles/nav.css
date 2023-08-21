@@ -1,0 +1,11 @@
+nav {
+    /* background-color: var(--color-red); */
+    height: 10vh;
+    position: fixed;
+    z-index: 90;
+    width: 100vw;
+    background: #00000050;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 0.5rem solid var(--color-red);
+}
