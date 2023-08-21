@@ -8,6 +8,7 @@ box-sizing: border-box;
 
 html{
 font-size: 0.625rem;
+scroll-behavior: smooth;
 }
 
 body{
