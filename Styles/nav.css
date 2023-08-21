@@ -4,7 +4,7 @@ nav {
     position: fixed;
     z-index: 90;
     width: 100vw;
-    background: #00000050;
+    background: #00000025;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-bottom: 0.5rem solid var(--color-red);
