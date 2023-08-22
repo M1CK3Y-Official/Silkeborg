@@ -25,4 +25,5 @@ font-size: 1.6rem;
 font-family: 'Mukta';
 max-width: 100vw;
 overflow-x: hidden;
+color: var(--color-white);
 }
