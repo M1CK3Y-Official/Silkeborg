@@ -8,4 +8,24 @@ nav {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-bottom: 0.5rem solid var(--color-red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link {
+    font-size: 3.2rem;
+    color: var(--color-white);
+    list-style: none;
+    display: flex;
+}
+
+.nav-link:last-of-type {
+    color: var(--color-red);
+    font-weight: 800;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 2.5em;
 }
