@@ -14,34 +14,32 @@
 .heading {
     color: var(--color-white);
     text-transform: uppercase;
-    font-size: 20rem;
+    font-size: clamp(3.5rem, -0.5049rem + 17.0874vw, 20rem);
     mix-blend-mode: difference;
     display: flex;
     justify-content: center;
     align-items: center;
     opacity: 1;
-    line-height: 20rem;
+    line-height: clamp(3.5rem, -0.5049rem + 17.0874vw, 20rem);
 }
 
 
 
 .heading-2 {
     color: var(--color-red);
-    font-size: 7.4rem;
+    font-size: clamp(2rem, 0.6893rem + 5.5922vw, 7.4rem);
     font-weight: 600;
-    line-height: 7.4rem;
+    /* line-height: 7.4rem; */
+    line-height: clamp(2rem, 0.6893rem + 5.5922vw, 7.4rem);;
     text-align: center;
 }
 
 .blur-container {
     box-shadow: 0px 0px 50px 50px rgba(0,0,0,0.71) ;
-    /* background-color: rgba(0, 0, 0, 0.71); */
     height: 40vh;
     width: 60vw;
-    /* backdrop-filter: blur(10px); */
 }
 .blur {
-    /* box-shadow: 0px 0px 50px 50px rgba(0, 0, 0, 0.71) inset; */
     background-color: rgba(0, 0, 0, 0.71);
     height: 40vh;
     width: 60vw;

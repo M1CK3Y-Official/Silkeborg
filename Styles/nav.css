@@ -14,11 +14,22 @@ nav {
 }
 
 .nav-link {
-    font-size: 3.2rem;
+    font-size: clamp(1rem, 0.466rem + 2.2783vw, 3.2rem);
     color: var(--color-white);
     list-style: none;
     display: flex;
     font-weight: 300;
+}
+
+.nav-a {
+    text-decoration: none;
+    color: inherit;
+}
+.nav-a:hover {
+    text-shadow: 0px 0px 10px var(--color-white);
+}
+.nav-gallery:hover {
+    text-shadow: 0px 0px 10px var(--color-red);
 }
 
 .nav-link:last-of-type {
