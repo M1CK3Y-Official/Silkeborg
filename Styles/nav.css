@@ -18,6 +18,7 @@ nav {
     color: var(--color-white);
     list-style: none;
     display: flex;
+    font-weight: 300;
 }
 
 .nav-link:last-of-type {
@@ -27,5 +28,5 @@ nav {
 
 .nav-menu {
     display: flex;
-    gap: 2.5em;
+    gap: 3.15em;
 }
