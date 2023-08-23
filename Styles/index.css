@@ -125,12 +125,14 @@ footer {
 .copyright-container {
   width: 33.3vw;
   grid-area: 'copyright';
+  text-align: center;
 }
 
 .top-container {
   width: 33.3vw;
   grid-area: 'top';
-  /* text-align: right; */
+  text-align: right;
+  padding-right: 50px;
 }
 
 .footer-content {
