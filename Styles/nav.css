@@ -51,7 +51,6 @@ nav {
   display: flex;
   justify-content: center;
   align-content: center;
-  /* text-transform: uppercase; */
   font-weight: 600;
   letter-spacing: 1px;
   cursor: default;
@@ -70,13 +69,28 @@ nav {
   color: var(--color-white);
   transition: text-shadow, color;
   margin: 0;
-  /* position: relative; */
-  /* top: 50%; */
-  /* transform: translateY(-50%); */
 }
 
 .navigationhandle:hover {
   color: var(--color-red);
+}
+
+.navigation-links li {
+  list-style: none;
+}
+.navigation-links a {
+  text-decoration: none;
+}
+
+.navigation-links 
+
+
+.subMenuContainer{
+  display : none;
+}
+
+.show .subMenuContainer{
+  display : block;
 }
 
 
