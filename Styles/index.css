@@ -1,15 +1,14 @@
 .hero {
-    background: url('../Assets/Porsche/Panamera_background.jpg');
+    background: url('../Assets/Porsche/Panamera_background_phone.jpg') !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-}
-
-.hero-img {
-    display: block;
-    z-index: 10;
+    overflow: hidden;
 }
 
 .heading {
@@ -145,20 +144,15 @@ footer {
 }
 
 
-@media only screen and(min-width: 375px) {
-  .hero {
-    background: url('../Assets/Porsche/Panamera_background.jpg');
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
 
-.hero-img {
-    display: block;
-    z-index: 10;
-}
+@media screen and(min-width: 768px) {
+  .hero {
+    background: url('../Assets/Porsche/Panamera_background.jpg') !important;
+    background-size: cover !important;
+    overflow: hidden;
+    background-repeat: no-repeat !important;
+
+  }
 
 .heading {
     color: var(--color-white);
