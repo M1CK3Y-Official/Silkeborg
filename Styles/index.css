@@ -24,7 +24,153 @@
     line-height: clamp(3.5rem, -0.5049rem + 17.0874vw, 20rem);
 }
 
+.heading-2 {
+    color: var(--color-red);
+    font-size: clamp(2rem, 0.6893rem + 5.5922vw, 7.4rem);
+    font-weight: 600;
+    line-height: clamp(2rem, 0.6893rem + 5.5922vw, 7.4rem);;
+    text-align: center;
+}
 
+.blur-container {
+    box-shadow: 0px 0px 50px 50px rgba(0,0,0,0.71) ;
+    height: 40vh;
+    width: 60vw;
+}
+.blur {
+    background-color: rgba(0, 0, 0, 0.71);
+    height: 40vh;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-ITEMS: center;
+}
+
+.fa-angles-down {
+    color: var(--color-red);
+    font-size: clamp(2rem, 0.665rem + 5.6958vw, 7.5rem);
+    position: absolute;
+    bottom: 0.5em;
+    text-decoration: none;
+}
+
+.fa-angles-down:hover {
+    text-shadow: 0px 0px 10px var(--color-red);
+}
+
+#astonmartin {
+  background-image: url(../Assets/Aston_Martin/AstonMartin_Background.jpg);
+  height: 100vh;
+  width: 100vw;
+  border-top: 0.5rem solid var(--color-red);
+}
+
+.astonmartin {
+  backdrop-filter: blur(7px);
+  height: 100vh;
+  border-bottom: 5px solid var(--color-red);
+}
+
+.square {
+  aspect-ratio: 1;
+  width: 740px;
+  height: 740px;
+  border: 0.5rem solid var(--color-white);
+}
+
+.car {
+  aspect-ratio: 1;
+  width: 100%;
+}
+
+.content-container {
+  display: grid;
+  height: 100vh;
+  grid-template-areas: "";
+  align-content: center;
+  padding: 0 10rem;
+}
+
+footer {
+  height: 15vh;
+  text-align: center;
+  background-color: var(--color-white);
+  overflow: hidden;
+  position: relative;
+  border-top: 5px solid var(--color-red);
+}
+
+.copyright {
+  font-size: clamp(1rem, 0.6359rem + 1.5534vw, 2.5rem);
+  color: var(--color-black);
+}
+
+.triangle {
+  position: absolute;
+  left: -100px;
+  bottom: -700px;
+}
+
+.copyright-container {
+  width: 33.3vw;
+  grid-area: 'copyright';
+  text-align: center;
+}
+
+.top-container {
+  width: 33.3vw;
+  grid-area: 'top';
+  text-align: right;
+  padding-right: 50px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-areas: "empty copyright top";
+  height: 15vh;
+  align-items: center;
+}
+
+.empty-container {
+  grid-area: 'empty';
+  width: 33.3vw;
+}
+
+.to-top-a {
+  color: var(--color-red);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: clamp(1.5rem, 1.0146rem + 2.0712vw, 3.5rem);
+}
+
+
+@media only screen and(min-width: 375px) {
+  .hero {
+    background: url('../Assets/Porsche/Panamera_background.jpg');
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hero-img {
+    display: block;
+    z-index: 10;
+}
+
+.heading {
+    color: var(--color-white);
+    text-transform: uppercase;
+    font-size: clamp(3.5rem, -0.5049rem + 17.0874vw, 20rem);
+    mix-blend-mode: difference;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    line-height: clamp(3.5rem, -0.5049rem + 17.0874vw, 20rem);
+}
 
 .heading-2 {
     color: var(--color-red);
@@ -60,14 +206,11 @@
     text-shadow: 0px 0px 10px var(--color-red);
 }
 
-
-
 #astonmartin {
   background-image: url(../Assets/Aston_Martin/AstonMartin_Background.jpg);
   height: 100vh;
   width: 100vw;
   border-top: 0.5rem solid var(--color-red);
-  
 }
 
 .astonmartin {
@@ -75,7 +218,6 @@
   height: 100vh;
   border-bottom: 5px solid var(--color-red);
 }
-
 
 .square {
   aspect-ratio: 1;
@@ -87,7 +229,6 @@
 .car {
   aspect-ratio: 1;
   width: 100%;
-  
 }
 
 .content-container {
@@ -96,15 +237,11 @@
   grid-template-areas: "";
   align-content: center;
   padding: 0 10rem;
-
 }
 
 footer {
   height: 15vh;
   text-align: center;
-  /* display: grid;
-  justify-content: center;
-  align-items: center; */
   background-color: var(--color-white);
   overflow: hidden;
   position: relative;
@@ -135,15 +272,9 @@ footer {
   padding-right: 50px;
 }
 
-.footer-content {
-  /* display: flex; */
-  /* justify-content: flex-end; */
-}
-
 .footer-container {
   display: grid;
   grid-template-areas: "empty copyright top";
-  /* width: 50%; */
   height: 15vh;
   align-items: center;
 }
@@ -153,13 +284,12 @@ footer {
   width: 33.3vw;
 }
 
-
-
 .to-top-a {
   color: var(--color-red);
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 800;
   font-size: clamp(1.5rem, 1.0146rem + 2.0712vw, 3.5rem);
+}
 }
   
