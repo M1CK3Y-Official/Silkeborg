@@ -65,14 +65,20 @@ nav {
   font-size: 3.5rem;
   line-height: 100%;
   text-shadow: 5px 2.5px 2.5px #00000050;
-  transition: 0.2s ease-in-out;
-  color: var(--color-white);
-  transition: text-shadow, color;
-  margin: 0;
+  position: absolute;
+  right: 10vw;
+  top: 50%;
+    transform: translateY(-50%);
+
 }
 
-.navigationhandle:hover {
-  color: var(--color-red);
+.fa-bars-staggered {
+  transition: 0.2s color ease-in-out;
+  color: white;
+}
+
+.fa-bars-staggered:hover {
+  color: red;
 }
 
 .navigation-links li {

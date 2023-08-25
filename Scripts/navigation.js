@@ -26,7 +26,7 @@ let linksArr = [
     },
     {
         id: 2,
-        link : '#bmw',
+        link : '',
         title : 'BMW',
         submenu : [
             {
@@ -103,10 +103,13 @@ linksArr.forEach((linkObj) => {
         linksContainer.insertAdjacentHTML('beforeend', linkTmpl(linkObj));
     }
 
-    // linksContainer.addEventListener('click', () => {
-    //     nav.classList.remove('active');
-        
-    // })
+
+    linksContainer.addEventListener('click', () => {
+        nav.classList.remove('active');
+    })
+    
+
+    
 })
 
 const navHandle = document.querySelector('.navigationHandle');
@@ -124,12 +127,13 @@ links.forEach((item) => {
     if(item.classList.contains('submenu')) {
 
         item.addEventListener('click', (e) => {
+            console.log(e.target)
             e.preventDefault();
             let subMenu = item.parentNode; 
             subMenu.classList.toggle('show');
         })
 
-    }
+    } 
 
 
 })
