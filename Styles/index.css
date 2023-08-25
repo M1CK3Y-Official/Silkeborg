@@ -1,14 +1,11 @@
 .hero {
     background-image: url('../Assets/Porsche/Panamera_background_phone.jpg');
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    overflow: hidden;
 }
 
 .heading {
@@ -42,7 +39,7 @@
     width: 60vw;
     display: flex;
     justify-content: center;
-    align-ITEMS: center;
+    align-items: center;
 }
 
 .fa-angles-down {
@@ -144,10 +141,9 @@ footer {
 }
 
 
-
-@media screen and(min-width: 768px) {
-  #hero.hero {
-    background-image: url('../Assets/Porsche/Panamera_background.jpg') !important;
+@media screen and (min-width: 768px) {
+  .hero {
+    background-image: url('../Assets/Porsche/Panamera_background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
   }

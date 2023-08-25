@@ -90,7 +90,7 @@ linksArr.forEach((linkObj) => {
         // Hvis vi har en sub menu, så opretter vi et link med en ul inde i.
         // Vi fanger den ul og putter vores sub elementer deri.
         
-        linksContainer.insertAdjacentHTML('beforeend', `<li><a href="${linkObj.link}" class="submenu">${linkObj.title} [*]</a><ul class="subMenuContainer" id="sub_${linkObj.id}"></ul></li>`)
+        linksContainer.insertAdjacentHTML('beforeend', `<li><a href="${linkObj.link}" class="submenu subDown">${linkObj.title}</a><ul class="subMenuContainer" id="sub_${linkObj.id}"></ul></li>`)
         let subMenu = document.querySelector(`#sub_${linkObj.id}`);
         
         // Indsætter alle sub elementer i vores nye ul

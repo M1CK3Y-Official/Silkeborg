@@ -90,7 +90,30 @@ nav {
 }
 
 .show .subMenuContainer{
-  display : block;
+  display : grid;
+}
+
+
+.subMenuContainer > li > a {
+  color: #c5c5c5;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+.navigation-links li a:hover {
+  color: red;
+}
+
+.show > a.submenu {
+  color: #bbb;
+}
+
+
+
+.subDown::after {
+  font-family: 'Font Awesome\ 5 Free';
+  content: "\f0d7";
+  padding: 0 0.5em;
 }
 
 
