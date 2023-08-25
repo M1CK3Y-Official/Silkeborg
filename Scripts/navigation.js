@@ -81,6 +81,8 @@ const linkTmpl = (linkObj) => {
 }
 
 
+let openSubmenu = null;
+
 // Her rendere vi hele menuen hvis et menupunkt ikke har underpunkter så udskriver vi bare et list element med et link i.
 linksArr.forEach((linkObj) => {
 
@@ -103,6 +105,8 @@ linksArr.forEach((linkObj) => {
         linksContainer.insertAdjacentHTML('beforeend', linkTmpl(linkObj));
     }
 
+    
+
 
     linksContainer.addEventListener('click', () => {
         nav.classList.remove('active');
@@ -120,6 +124,8 @@ navHandle.addEventListener('click', () => {
 
 
 
+
+
 const links = document.querySelectorAll('.navigation-links li a');
 
 links.forEach((item) => {
@@ -127,7 +133,6 @@ links.forEach((item) => {
     if(item.classList.contains('submenu')) {
 
         item.addEventListener('click', (e) => {
-            console.log(e.target)
             e.preventDefault();
             let subMenu = item.parentNode; 
             subMenu.classList.toggle('show');
