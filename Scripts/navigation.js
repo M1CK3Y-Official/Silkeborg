@@ -30,7 +30,7 @@ let linksArr = [
         title : 'BMW',
         submenu : [
             {
-                link : '#545e',
+                link : '#bmw-545e',
                 title : '545e'
             },
             {

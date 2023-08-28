@@ -49,7 +49,7 @@
 #audi {
   background-image: url(../Assets/Audi/Audi-background.jpg);
 }
-#545e {
+#bmw-545e {
   background-image: url(../Assets/Aston_Martin/AstonMartin_Background.jpg);
 }
 #m550i {
@@ -85,10 +85,92 @@
 .content-container {
   display: grid;
   grid-template-areas: "image text";
+  place-content: center;
+  align-items: center;
+  gap: 100px;
+  width: 100vw;
 }
 
-.car {
+.image {
   grid-area: 'image';
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  /* justify-content: center; */
+  justify-content: end;
+  align-items: center;
+}
+.image-container {
+  aspect-ratio: 1/1;
+  max-width: 740px;
+
+}
+.car {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1/1;
+  border: 0.5rem solid var(--color-white);
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.71);
+  /* border-radius: 1em; */
+
+}
+
+.text {
+  grid-area: 'text';
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  /* justify-content: center; */
+  justify-content: start;
+  align-items: center;
+  
+}
+.text-content {
+  max-width: 690px;
+  width: 100%;
+  aspect-ratio: 1;
+  background-color: rgba(0, 0, 0,  0.69);
+  /* border-radius: 1em; */
+  backdrop-filter: blur(10px);
+  /* border: 5px solid var(--color-white); */
+  box-shadow: 0px 0px 50px 50px rgba(0, 0, 0, 0.71);
+}
+.text-wrapper {
+  
+  width: 100%;
+  aspect-ratio: 1;
+  display: grid;
+  place-content: center;
+  align-items: center;
+  text-align: center;
+}
+.text-content h2 {
+  font-size: 4.5rem;
+  margin-bottom: 0.5em;
+}
+.text-content p {
+  font-size: 3.5rem;
+}
+
+.more {
+  background: linear-gradient(var(--color-red), #A72222);
+  font-size: 2.5rem;
+  color: var(--color-white);
+  padding: 1em 2em;
+  text-shadow: 0px 3px 6px #00000029;
+  border-radius: 25em;
+  outline: none;
+  border: none;
+  box-shadow: 0px 0px 10px #00000080;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 1.5em;
+  transition: outline 0.25s linear;
+}
+.more:hover {
+  outline: 5px solid var(--color-white);
+  cursor: pointer;
 }
 
 
@@ -189,7 +271,7 @@ footer {
 }
 
 .blur-container {
-    box-shadow: 0px 0px 50px 50px rgba(0,0,0,0.71) ;
+    box-shadow: 0px 0px 50px 50px rgba(0,0,0,0.71);
 }
 .blur {
     background-color: rgba(0, 0, 0, 0.71);
