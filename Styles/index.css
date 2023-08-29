@@ -1,5 +1,5 @@
 .hero {
-    background-image: url('../Assets/Porsche/Panamera_background_phone.jpg');
+    background-image: url('../Assets/Porsche/Panamera_hero_phone.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -50,22 +50,22 @@
   background-image: url(../Assets/Audi/Audi-background.jpg);
 }
 #bmw-545e {
-  background-image: url(../Assets/Aston_Martin/AstonMartin_Background.jpg);
+  background-image: url(../Assets/BMW/545e/545e_Background.jpg);
 }
 #m550i {
-  background-image: url(../Assets/Audi/Audi-background.jpg);
+  background-image: url(../Assets/BMW/M550i/M550i_background.jpg);
 }
 #m5 {
-  background-image: url(../Assets/Aston_Martin/AstonMartin_Background.jpg);
+  background-image: url(../Assets/BMW/M5/M5_Background.jpg);
 }
 #mercedes {
-  background-image: url(../Assets/Audi/Audi-background.jpg);
+  background-image: url(../Assets/Mercedes/C43_background.jpg);
 }
 #porsche {
-  background-image: url(../Assets/Aston_Martin/AstonMartin_Background.jpg);
+  background-image: url(../Assets/Porsche/Panamera_Background.jpg);
 }
 #rangerover {
-  background-image: url(../Assets/Audi/Audi-background.jpg);
+  background-image: url(../Assets/Rangerover/Velar_background.jpg);
 }
 
 .cars {
@@ -175,24 +175,6 @@
 
 
 
-/* .square {
-  aspect-ratio: 1;
-  max-width: 740px;
-  border: 0.5rem solid var(--color-white);
-}
-
-.car {
-  aspect-ratio: 1;
-  width: 100%;
-}
-
-.content-container {
-  display: grid;
-  height: 100vh;
-  grid-template-areas: "";
-  align-content: center;
-  padding: 0 10rem;
-} */
 
 footer {
   height: 15vh;
@@ -250,24 +232,18 @@ footer {
 
 @media screen and (min-width: 768px) {
   .hero {
-    background-image: url('../Assets/Porsche/Panamera_background.jpg');
+    background-image: url('../Assets/Porsche/Panamera_hero.jpg');
   }
 
 .heading {
-    color: var(--color-white);
-    text-transform: uppercase;
     font-size: clamp(12.5rem, -8.8333rem + 20vw, 18rem);
     mix-blend-mode: difference;
-    opacity: 1;
     font-size: clamp(12.5rem, -8.8333rem + 20vw, 18rem);
 }
 
 .heading-2 {
-    color: var(--color-red);
     font-size: clamp(2rem, 0.6893rem + 5.5922vw, 7.4rem);
-    font-weight: 600;
     line-height: clamp(2rem, 0.6893rem + 5.5922vw, 7.4rem);;
-    text-align: center;
 }
 
 .blur-container {
@@ -295,38 +271,130 @@ footer {
     text-shadow: 0px 0px 10px var(--color-red);
 }
 
-/* #astonmartin {
+#astonmartin {
   background-image: url(../Assets/Aston_Martin/AstonMartin_Background.jpg);
+}
+#audi {
+  background-image: url(../Assets/Audi/Audi-background.jpg);
+}
+#bmw-545e {
+  background-image: url(../Assets/BMW/545e/545e_Background.jpg);
+}
+#m550i {
+  background-image: url(../Assets/BMW/M550i/M550i_background.jpg);
+}
+#m5 {
+  background-image: url(../Assets/BMW/M5/M5_Background.jpg);
+}
+#mercedes {
+  background-image: url(../Assets/Mercedes/C43_background.jpg);
+}
+#porsche {
+  background-image: url(../Assets/Porsche/Panamera_Background.jpg);
+}
+#rangerover {
+  background-image: url(../Assets/Rangerover/Velar_background.jpg);
+}
+
+.cars {
   height: 100vh;
   width: 100vw;
   border-top: 0.5rem solid var(--color-red);
+  padding: 0 5em;
 }
 
-.astonmartin {
+.wrapper {
   backdrop-filter: blur(7px);
   height: 100vh;
-  border-bottom: 5px solid var(--color-red);
-}
-
-.square {
-  aspect-ratio: 1;
-  width: 740px;
-  height: 740px;
-  border: 0.5rem solid var(--color-white);
-}
-
-.car {
-  aspect-ratio: 1;
-  width: 100%;
+  width: 100vw;
+  border-bottom: 0.5rem solid var(--color-red);
+  /* padding: 0 5em; */
 }
 
 .content-container {
   display: grid;
+  grid-template-areas: "image text";
+  place-content: center;
+  align-items: center;
+  gap: 100px;
+  width: 100vw;
+}
+
+.image {
+  grid-area: 'image';
+  width: 50vw;
   height: 100vh;
-  grid-template-areas: "";
-  align-content: center;
-  padding: 0 10rem;
-} */
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.image-container {
+  aspect-ratio: 1/1;
+  max-width: 740px;
+
+}
+.car {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1/1;
+  border: 0.5rem solid var(--color-white);
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.71);
+}
+
+.text {
+  grid-area: 'text';
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  
+}
+.text-content {
+  max-width: 690px;
+  width: 100%;
+  aspect-ratio: 1;
+  background-color: rgba(0, 0, 0,  0.69);
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 0px 50px 50px rgba(0, 0, 0, 0.71);
+}
+.text-wrapper {
+  
+  width: 100%;
+  aspect-ratio: 1;
+  display: grid;
+  place-content: center;
+  align-items: center;
+  text-align: center;
+}
+.text-content h2 {
+  font-size: 4.5rem;
+  margin-bottom: 0.5em;
+}
+.text-content p {
+  font-size: 3.5rem;
+}
+
+.more {
+  background: linear-gradient(var(--color-red), #A72222);
+  font-size: 2.5rem;
+  color: var(--color-white);
+  padding: 1em 2em;
+  text-shadow: 0px 3px 6px #00000029;
+  border-radius: 25em;
+  outline: none;
+  border: none;
+  box-shadow: 0px 0px 10px #00000080;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 1.5em;
+  transition: outline 0.25s linear;
+}
+.more:hover {
+  outline: 5px solid var(--color-white);
+  cursor: pointer;
+}
 
 footer {
   height: 15vh;
