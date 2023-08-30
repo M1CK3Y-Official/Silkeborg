@@ -10,17 +10,17 @@
   background-size: cover;
 }
 #audi {
-  background-image: url(../Assets/Audi/Audi-background.jpg);
+  background-image: url(../Assets/Audi/Audi_Background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 #bmw-545e {
-  background-image: url(../Assets/BMW/545e/545e_background.jpg);
+  background-image: url(../Assets/BMW/545e/545e_Background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 #m550i {
-  background-image: url(../Assets/BMW/M550i/M550i_background.jpg);
+  background-image: url(../Assets/BMW/M550i/M550i_Background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -30,7 +30,7 @@
   background-size: cover;
 }
 #mercedes {
-  background-image: url(../Assets/Mercedes/C43_background.jpg);
+  background-image: url(../Assets/Mercedes/C43_Background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -40,7 +40,7 @@
   background-size: cover;
 }
 #rangerover {
-  background-image: url(../Assets/Rangerover/Velar_background.jpg);
+  background-image: url(../Assets/Rangerover/Velar_Background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
