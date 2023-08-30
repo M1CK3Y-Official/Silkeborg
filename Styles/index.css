@@ -4,7 +4,6 @@
   border-top: 5px solid var(--color-red);
 }
 
-
 #astonmartin {
   background-image: url(../Assets/Aston_Martin/AstonMartin_Background.jpg);
   background-repeat: no-repeat;
@@ -90,7 +89,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* aspect-ratio: 1; */
 }
 
 hr {
@@ -135,9 +133,6 @@ hr {
 
 
 
-
-
-
 /* --- MEDIA QUERY FOR GRID START --- */
 
 @media screen and (min-width: 1000px) {
@@ -150,8 +145,6 @@ hr {
   }
 
   .text p {
-    /* font-size: 2.5rem; */
-    /* font-size: 2rem; */
     font-size: clamp(2rem, 0.04565rem + 1.8696vw, 2.5rem);
   }
   
@@ -169,6 +162,7 @@ hr {
     box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.71);
     outline: 5px solid var(--color-white);
   }
+  
 }
 
 
