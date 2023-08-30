@@ -47,6 +47,11 @@
 
 /* ----- CAR SECTION START ----- */
 
+.car-section {
+  border-top: 5px solid var(--color-red);
+}
+
+
 #astonmartin {
   background-image: url(../Assets/Aston_Martin/AstonMartin_Background.jpg);
   background-repeat: no-repeat;
@@ -131,8 +136,31 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   /* aspect-ratio: 1; */
+}
+
+hr {
+  border: none;
+  outline: none;
+  height: 0.5rem;
+  background-color: var(--color-red);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.71);
+}
+
+.text h2 {
+  font-size: clamp(1.5rem, 0.8932rem + 2.589vw, 4rem);
+}
+
+.text p {
+  font-size: clamp(1.25rem, 1.068rem + 0.7767vw, 2rem);
+  font-weight: 200;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.text p b {
+  font-weight: 500;
 }
 
 /* ----- CAR SECTION END ----- */
@@ -151,9 +179,7 @@ footer {
 }
 
 .copyright {
-  /* font-size: clamp(1rem, 0.6359rem + 1.5534vw, 2.5rem); */
   font-size: clamp(1rem, 0.6359rem + 1.5534vw, 2.5rem);
-  /* font-size: clamp(1.25rem, 0.8252rem + 1.8123vw, 3rem); */
   color: var(--color-black);
 }
 
@@ -201,8 +227,6 @@ footer {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 800;
-  /* font-size: clamp(1.5rem, 1.0146rem + 2.0712vw, 3.5rem); */
-  /* font-size: clamp(1rem, 0.3932rem + 2.589vw, 3.5rem); */
   font-size: clamp(1.5rem, 0.6505rem + 3.6246vw, 5rem);
   z-index: 2;
 }
@@ -216,6 +240,16 @@ footer {
 @media screen and (min-width: 1000px) {
   .content-container {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .text h2 {
+    font-size: clamp(2.5rem, 0.0696rem + 2.6087vw, 4rem);
+  }
+
+  .text p {
+    /* font-size: 2.5rem; */
+    /* font-size: 2rem; */
+    font-size: clamp(2rem, 0.04565rem + 1.8696vw, 2.5rem);
   }
 }
 
@@ -233,7 +267,7 @@ footer {
   .heading {
       font-size: clamp(12.5rem, -8.8333rem + 20vw, 18rem);
       mix-blend-mode: difference;
-      font-size: clamp(12.5rem, -8.8333rem + 20vw, 18rem);
+      line-height: clamp(12.5rem, -8.8333rem + 20vw, 18rem);
   }
   .heading-2 {
       font-size: clamp(2rem, 0.6893rem + 5.5922vw, 7.4rem);
@@ -276,20 +310,6 @@ footer {
     background-size: cover;
     background-position: center;
   }
-
-  .content-container {
-    /* background-color: red;
-    max-width: 75vw;
-    margin: 0 auto;
-    display: grid;
-    gap: 1rem; */
-  }
-
-  .grid-item {
-    /* padding: 1rem; */
-  }
-
-  
 
   /* ----- CAR SECTIONS END ----- */
 
