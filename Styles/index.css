@@ -1,3 +1,5 @@
+/* ----- HERO START ----- */
+
 .hero {
     background-image: url('../Assets/Porsche/Panamera_hero_phone.jpg');
     background-repeat: no-repeat;
@@ -39,216 +41,107 @@
     text-decoration: none;
 }
 
+/* ----- HERO END ----- */
 
 
 
-/* .cars {
-  height: 100%;
-  width: 100vw;
-}
-.cars:first-of-type {
-  border-top: 0.5rem solid var(--color-red);
-}
-
-.wrapper {
-  backdrop-filter: blur(7px);
-  height: 100%;
-  width: 100vw;
-}
-
-.wrapper:first-of-type {
-  border-bottom: 0.5rem solid var(--color-red);
-}
-
-.content-container {
-  display: grid;
-  grid-template-areas: 
-  "image"
-  "text";
-  width: 100vw;
-}
-
-.image {
-  grid-area: 'image';
-  width: 100vw;
-
-}
-.image-container {
-  aspect-ratio: 1/1;
-
-}
-.car {
-  display: block;
-  width: 100%;
-  aspect-ratio: 1/1;
-}
-
-.text {
-  grid-area: 'text';
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-}
-
-
-.text-content h2 {
-  font-size: clamp(1rem, -0.9084rem + 8.1425vw, 3rem);
-  margin-bottom: 0.5em;
-  
-}
-.text-content p {
-  font-size: clamp(1rem, 0.0458rem + 4.0712vw, 2rem);
-}
-
-.more {
-  background: linear-gradient(var(--color-red), #A72222);
-  font-size: 2rem;
-  color: var(--color-white);
-  padding: 1em 2em;
-  text-shadow: 0px 3px 6px #00000029;
-  border-radius: 25em;
-  outline: none;
-  border: none;
-  box-shadow: 0px 0px 10px #00000080;
-  text-align: center;
-  font-weight: 600;
-  text-transform: uppercase;
-  margin-top: 1.5em;
-} */
-
-
-
-
-
-footer {
-  height: 15vh;
-  text-align: center;
-  background-color: var(--color-white);
-  overflow: hidden;
-  position: relative;
-  border-top: 5px solid var(--color-red);
-}
-
-.copyright {
-  font-size: clamp(1rem, 0.6359rem + 1.5534vw, 2.5rem);
-  color: var(--color-black);
-}
-
-.triangle {
-  position: absolute;
-  left: -100px;
-  bottom: -700px;
-}
-
-.copyright-container {
-  width: 33.3vw;
-  grid-area: 'copyright';
-  text-align: center;
-}
-
-.top-container {
-  width: 33.3vw;
-  grid-area: 'top';
-  text-align: right;
-  padding-right: 50px;
-}
-
-.footer-container {
-  display: grid;
-  grid-template-areas: "empty copyright top";
-  height: 15vh;
-  align-items: center;
-}
-
-.empty-container {
-  grid-area: 'empty';
-  width: 33.3vw;
-}
-
-.to-top-a {
-  color: var(--color-red);
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: 800;
-  font-size: clamp(1.5rem, 1.0146rem + 2.0712vw, 3.5rem);
-}
-
-
-@media screen and (min-width: 768px) {
-  .hero {
-    background-image: url('../Assets/Porsche/Panamera_hero.jpg');
-  }
-
-.heading {
-    font-size: clamp(12.5rem, -8.8333rem + 20vw, 18rem);
-    mix-blend-mode: difference;
-    font-size: clamp(12.5rem, -8.8333rem + 20vw, 18rem);
-}
-
-.heading-2 {
-    font-size: clamp(2rem, 0.6893rem + 5.5922vw, 7.4rem);
-    line-height: clamp(2rem, 0.6893rem + 5.5922vw, 7.4rem);;
-}
-
-.blur-container {
-    box-shadow: 0px 0px 50px 50px rgba(0,0,0,0.71);
-}
-.blur {
-    background-color: rgba(0, 0, 0, 0.71);
-    padding: 5vw;
-    max-width: 60vw;
-    min-width: 60vh;
-    display: flex;
-    justify-content: center;
-    align-ITEMS: center;
-}
-
-.fa-angles-down {
-    color: var(--color-red);
-    font-size: clamp(2rem, 0.665rem + 5.6958vw, 7.5rem);
-    position: absolute;
-    bottom: 0.5em;
-    text-decoration: none;
-}
-
-.fa-angles-down:hover {
-    text-shadow: 0px 0px 10px var(--color-red);
-}
+/* ----- CAR SECTION START ----- */
 
 #astonmartin {
   background-image: url(../Assets/Aston_Martin/AstonMartin_Background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #audi {
   background-image: url(../Assets/Audi/Audi-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #bmw-545e {
   background-image: url(../Assets/BMW/545e/545e_Background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #m550i {
   background-image: url(../Assets/BMW/M550i/M550i_background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #m5 {
   background-image: url(../Assets/BMW/M5/M5_Background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #mercedes {
   background-image: url(../Assets/Mercedes/C43_background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #porsche {
   background-image: url(../Assets/Porsche/Panamera_Background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #rangerover {
   background-image: url(../Assets/Rangerover/Velar_background.jpg);
-}
-.cars {
-  filter: blur(7px);
-  height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
 }
 
+.cars {
+  min-height: 100vh;
+
+  width: 100%;
+}
+
+.blur-car {
+  padding: 2.5em 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(7px);
+}
+
+.content-container {
+  max-width: 90vw;
+  margin: 0 auto;
+  display: grid;
+  gap: 2.5em;
+}
+
+.grid-item {
+  /* padding: 1rem; */
+  /* border: 5px solid white; */
+  background-color: rgba(0, 0, 0, 0.71);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.71);
+}
+
+.image {
+  border: 5px solid var(--color-white);
+}
+
+.car {
+  width: 100%;
+  max-width: 680px;
+  display: block;
+}
+
+.text {
+  width: 100%;
+  padding: 1em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* aspect-ratio: 1; */
+}
+
+/* ----- CAR SECTION END ----- */
+
+
+
+/* ----- FOOTER START ----- */
 
 footer {
   height: 15vh;
@@ -302,5 +195,147 @@ footer {
   font-weight: 800;
   font-size: clamp(1.5rem, 1.0146rem + 2.0712vw, 3.5rem);
 }
+
+/* ----- FOOTER END ----- */
+
+
+
+/* --- MEDIA QUERY FOR GRID START --- */
+
+@media screen and (min-width: 1000px) {
+  .content-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+
+/* --- MEDIA QUERY FOR DESKTOP 768px - START --- */
+
+@media screen and (min-width: 768px) {
+  
+  /* ----- HERO START ----- */
+
+  .hero {
+    background-image: url('../Assets/Porsche/Panamera_hero.jpg');
+  }
+  .heading {
+      font-size: clamp(12.5rem, -8.8333rem + 20vw, 18rem);
+      mix-blend-mode: difference;
+      font-size: clamp(12.5rem, -8.8333rem + 20vw, 18rem);
+  }
+  .heading-2 {
+      font-size: clamp(2rem, 0.6893rem + 5.5922vw, 7.4rem);
+      line-height: clamp(2rem, 0.6893rem + 5.5922vw, 7.4rem);;
+  }
+  .blur-container {
+      box-shadow: 0px 0px 50px 50px rgba(0,0,0,0.71);
+  }
+  .blur {
+      background-color: rgba(0, 0, 0, 0.71);
+      padding: 5vw;
+      max-width: 60vw;
+      min-width: 60vh;
+      display: flex;
+      justify-content: center;
+      align-ITEMS: center;
+  }
+  .fa-angles-down {
+      color: var(--color-red);
+      font-size: clamp(2rem, 0.665rem + 5.6958vw, 7.5rem);
+      position: absolute;
+      bottom: 0.5em;
+      text-decoration: none;
+  }
+  .fa-angles-down:hover {
+      text-shadow: 0px 0px 10px var(--color-red);
+  }
+
+  /* ----- HERO END ----- */
+
+
+
+  /* ----- CAR SECTIONS START ----- */
+
+
+  .cars {
+    
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .content-container {
+    /* background-color: red;
+    max-width: 75vw;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem; */
+  }
+
+  .grid-item {
+    /* padding: 1rem; */
+  }
+
+  
+
+  /* ----- CAR SECTIONS END ----- */
+
+
+
+  /* ----- FOOTER START ----- */
+
+  /* footer {
+    height: 15vh;
+    text-align: center;
+    background-color: var(--color-white);
+    overflow: hidden;
+    position: relative;
+    border-top: 5px solid var(--color-red);
+  }
+  .copyright {
+    font-size: clamp(1rem, 0.6359rem + 1.5534vw, 2.5rem);
+    color: var(--color-black);
+  }
+  .triangle {
+    position: absolute;
+    left: -100px;
+    bottom: -700px;
+  }
+  .copyright-container {
+    width: 33.3vw;
+    grid-area: 'copyright';
+    text-align: center;
+  }
+  .top-container {
+    width: 33.3vw;
+    grid-area: 'top';
+    text-align: right;
+    padding-right: 50px;
+  }
+  .footer-container {
+    display: grid;
+    grid-template-areas: "empty copyright top";
+    height: 15vh;
+    align-items: center;
+  }
+  .empty-container {
+    grid-area: 'empty';
+    width: 33.3vw;
+  }
+  .to-top-a {
+    color: var(--color-red);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: clamp(1.5rem, 1.0146rem + 2.0712vw, 3.5rem);
+  } */
+  
+
+
+  /* ----- FOOTER END ----- */
+
 }
   
+/* --- MEDIA QUERY FOR DESKTOP 768px - END --- */
