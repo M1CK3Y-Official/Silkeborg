@@ -5,42 +5,42 @@
 }
 
 #astonmartin {
-  background-image: url(../Assets/Aston_Martin/AstonMartin_Background.jpg);
+  background-image: url(../Assets/Backgrounds/AstonMartin_Background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 #audi {
-  background-image: url(../Assets/Audi/Audi_Background.jpg);
+  background-image: url(../Assets/Backgrounds/Audi_Background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 #bmw-545e {
-  background-image: url(../Assets/BMW/545e/545e_Background.jpg);
+  background-image: url(../Assets/Backgrounds/545e_Background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 #m550i {
-  background-image: url(../Assets/BMW/M550i/M550i_Background.jpg);
+  background-image: url(../Assets/Backgrounds/M550i_Background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 #m5 {
-  background-image: url(../Assets/BMW/M5/M5_Background.jpg);
+  background-image: url(../Assets/Backgrounds/M5_Background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 #mercedes {
-  background-image: url(../Assets/Mercedes/C43_Background.jpg);
+  background-image: url(../Assets/Backgrounds/C43_Background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 #porsche {
-  background-image: url(../Assets/Porsche/Panamera_Background.jpg);
+  background-image: url(../Assets/Backgrounds/Panamera_Background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 #rangerover {
-  background-image: url(../Assets/Rangerover/Velar_Background.jpg);
+  background-image: url(../Assets/Backgrounds/Velar_Background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
