@@ -75,6 +75,10 @@ nav {
   right: 10vw;
   top: 50%;
   transform: translateY(-50%);
+  
+}
+
+.navigationHandle:hover {
   cursor: pointer;
 }
 
