@@ -32,11 +32,12 @@ nav {
   flex-direction: column;
   justify-content: space-evenly;
   right: -100vw;
-  transition: right;
+  transition: right, opacity;
   transition-duration: 0.75s;
   border-radius: 2.5em;
   z-index: 90;
   box-shadow: 0px 0px 15px #00000075;
+  opacity: 0;
 }
 
 .menus {
@@ -62,6 +63,7 @@ nav {
 
 .navigation.active {
   right: 0;
+  opacity: 1;
 }
 
 .navigationHandle {
