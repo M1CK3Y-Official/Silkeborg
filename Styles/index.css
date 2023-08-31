@@ -162,6 +162,10 @@ hr {
     box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.71);
     outline: 5px solid var(--color-white);
   }
+
+  #audi .image, #m550i .image, #mercedes .image, #rangerover .image {
+    order: 1;
+  }
   
 }
 
