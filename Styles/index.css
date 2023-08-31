@@ -131,6 +131,12 @@ hr {
 /* ----- CAR SECTION END ----- */
 
 
+.logo-2 {
+  max-width: 5rem;
+  filter: drop-shadow(0px 0px 2.5px rgba(0, 0, 0, 0.71));
+}
+
+
 
 
 /* --- MEDIA QUERY FOR GRID START --- */
@@ -185,6 +191,12 @@ hr {
   }
 
   /* ----- CAR SECTIONS END ----- */
+
+  .logo-2 {
+    max-width: 100px;
+    filter: drop-shadow(0px 0px 2.5px rgba(0, 0, 0, 0.71));
+  }
+  
 
 }
   
