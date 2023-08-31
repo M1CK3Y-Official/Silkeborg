@@ -1,7 +1,7 @@
 nav {
   height: 10vh;
   position: fixed;
-  z-index: 90;
+  z-index: 100;
   width: 100vw;
   background: #00000025;
   backdrop-filter: blur(10px);
