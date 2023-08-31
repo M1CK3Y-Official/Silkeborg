@@ -74,8 +74,8 @@ nav {
   position: absolute;
   right: 10vw;
   top: 50%;
-    transform: translateY(-50%);
-
+  transform: translateY(-50%);
+  cursor: pointer;
 }
 
 .fa-bars-staggered {
