@@ -41,13 +41,13 @@ background-color: var(--color-red);
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #d22e2e;
+    background: #eeeeee;
     border-radius: 10px;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #d22e2e;
+    background: #eeeeee;
   }
 
 
